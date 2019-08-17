@@ -1,6 +1,6 @@
 class School
   
- @@roster = []
+ @@roster = {}
   
   def initialize(name)
     @name = name 
@@ -11,6 +11,9 @@ class School
   def roster 
     @roster 
   end 
+  
+  def add_student
+    
   
 end 
 
